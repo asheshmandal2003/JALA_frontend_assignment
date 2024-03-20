@@ -1,0 +1,9 @@
+* {
+  margin: 0; /* This will remove the default margin and padding from everywhere*/
+  padding: 0;
+}
+body {
+  width: 100%; /* This will take the full width as the width of the body. */
+  height: 100vh; /* This will take the full viewport height as the height of the body. */
+  background-color: yellow; /* This will make the background color yellow. */
+}

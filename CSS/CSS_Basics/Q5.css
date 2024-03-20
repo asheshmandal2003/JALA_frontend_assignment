@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div {
+  width: 300px;
+  height: 100px;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.div-1 {
+  font-style: italic;
+}
+
+.div-2 {
+  font-size: 40px;
+}
+
+.div-3 {
+  font-family: sans-serif;
+}
+
+.div-4 {
+  color: red;
+}
+
+.div-5 {
+  text-align: center;
+}

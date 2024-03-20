@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+table {
+  width: 400px;
+  height: 200px;
+  background-color: #fff;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+
+table.b {
+  table-layout: fixed;
+  width: 180px;
+}
+
+table.c {
+  table-layout: auto;
+  width: 100%;
+}
+
+div:hover {
+  background-color: yellow;
+}

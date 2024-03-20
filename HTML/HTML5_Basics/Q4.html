@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo-classes and Pseudo-elements Example</title>
+    <style>
+      a {
+        color: blue;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: red;
+      }
+
+      div p:first-of-type {
+        font-weight: bold;
+      }
+
+      div p:last-of-type {
+        color: green;
+      }
+
+      p::first-letter {
+        font-size: 150%;
+        color: purple;
+        float: left;
+        margin-right: 5px;
+      }
+
+      p::before {
+        content: "Note: ";
+        font-style: italic;
+      }
+
+      p::after {
+        content: " - End of note.";
+        font-style: italic;
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pseudo-classes and Pseudo-elements Example</h1>
+
+    <div>
+      <p>This is the first paragraph of the div.</p>
+      <p>This is the second paragraph of the div.</p>
+      <p>This is the last paragraph of the div.</p>
+    </div>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan
+      consectetur nisi, ac mattis lorem molestie vel.
+    </p>
+
+    <p><a href="#">Click me</a> to see pseudo-classes in action!</p>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Webpage</title>
+  </head>
+  <body>
+    <h1>Input Restriction Types</h1>
+    <form>
+      <label for="in-1">This is a disabled input</label>
+      <input type="text" id="in-1" value="You cannot touch me!" disabled />
+    </form>
+    <br />
+    <form>
+      <label for="in-2">This input cannot allow numbers greater than 10</label>
+      <input type="number" id="in-2" max="10" />
+      <button type="submit">Check</button>
+    </form>
+    <br />
+    <form>
+      <label for="in-3">This input can conatin maximum 10 characters</label>
+      <input type="text" id="in-3" maxlength="10" />
+      <button type="submit">Check</button>
+    </form>
+    <br />
+    <form>
+      <label for="in-4"
+        >This input cannot allow dates before "2000-01-01"</label
+      >
+      <input type="date" id="in-4" min="2000-01-01" />
+      <button type="submit">Check</button>
+    </form>
+    <br />
+    <form>
+      <label for="in-5">This is a read-only input</label>
+      <input type="text" id="in-5" value="You cannot change me!" readonly />
+      <button type="submit">Check</button>
+    </form>
+    <br />
+    <form>
+      <label for="in-6">This is a required input</label>
+      <input type="text" id="in-6" required />
+      <button type="submit">Check</button>
+    </form>
+    <br />
+    <form>
+      <label for="in-7">This input has a size of 100</label>
+      <input type="text" id="in-7" size="100" />
+    </form>
+    <br />
+    <form>
+      <label for="in-8">This input has a value</label>
+      <input type="text" id="in-8" value="I ❤️ HTML" />
+      <button type="submit">Check</button>
+    </form>
+    <br />
+  </body>
+</html>

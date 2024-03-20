@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  height: 500vh;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  padding: 20px;
+}
+.link-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.scroll-link {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: blue;
+  cursor: pointer;
+}
+
+#bottom {
+  margin-top: auto;
+}

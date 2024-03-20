@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.solid-border {
+  border: 5px solid #999;
+}
+.dashed-border {
+  border: 5px dashed #999;
+}
+.dotted-border {
+  border: 5px dotted #999;
+}
+.ridge-border {
+  border: 20px ridge #999;
+}
